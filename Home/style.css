@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Cinzel:wght@400;500;600;700&family=Oswald:wght@200&family=Tinos&family=Vollkorn&display=swap');
+
+* {margin: 0; padding: 0; width: 100%;}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: #010424 url('background-home-mobile.jpg') center no-repeat fixed;
+  background-size: cover;
+  color: white;
+}
+
+
+header {
+  width: 100%;
+  height: 13vh;
+}
+
+nav {
+  display: none;
+}
+
+nav li {
+  list-style: none;
+  margin: 7% 0%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+
+}
+
+nav a:hover{
+  font-size: 1.2rem;
+  color: lightgray;
+}
+
+#check:checked ~ nav{
+  display: block;
+  text-align: center;
+  padding-top: 20vh;
+  background: rgba(225, 225, 225, 0.1);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  height: 100vh;
+  
+}
+
+input#check {
+  position: absolute;
+  margin-left: 39%;
+  margin-top: 4vh;
+  display: none;
+}
+
+label img{
+  width: 8%;
+  margin-left: 85vw;
+  margin-top: 4vh;
+  position: absolute;
+  z-index: 1;
+}
+
+img#logo {
+  width: 9.5%;
+  position: absolute;
+  margin-top: 3vh;
+  margin-left: 5.7vw;
+}
+
+
+h1 {
+  text-align: center;
+  font-weight: lighter;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: whitesmoke;
+  margin-top: 4.03%;
+}
+
+h1 span {
+  display: block;
+  font-family: 'Cinzel', serif;
+  font-size: 4.5rem;
+  font-weight: lighter;
+  margin-top: 2.8%;
+}
+
+p {
+  text-align: center;
+  margin: auto;
+  margin-top: 3vh;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.1rem;
+  line-height: 1.5rem;
+  width: 88vw;
+  font-size: 0.85rem;
+  color: whitesmoke;
+}
+
+div#explore {
+  display: block;
+  font-family: 'Cinzel', serif;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.13rem;
+  color: black;
+  background-color: white;
+  margin: auto;
+  margin-top: 12.4vh;
+  width: 18%;
+  padding: 17% 13% 17% 9%;
+  border-radius: 50%;
+}
+
