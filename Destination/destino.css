@@ -1,19 +1,18 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Cinzel:wght@400;500;600;700&family=Oswald:wght@200&family=Tinos&family=Vollkorn&display=swap');
 
-* {margin: 0; padding: 0; width: 100%;}
+* {margin: 0; padding: 0;}
 
-body {
+body{
   width: 100%;
   height: 100vh;
-  background: #010424 url('imagens/background-home-mobile.jpg') center no-repeat fixed;
+  background: #010424 url('../imagens/background-destination-mobile.jpg') center no-repeat fixed;
   background-size: cover;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 
 
 header {
@@ -21,7 +20,7 @@ header {
   height: 13vh;
 }
 
-nav {
+nav#navegacao {
   display: none;
 }
 
@@ -30,18 +29,18 @@ nav li {
   margin: 7% 0%;
 }
 
-nav a {
+header nav a {
   color: white;
   text-decoration: none;
 
 }
 
-nav a:hover{
+header nav a:hover {
   font-size: 1.2rem;
   color: lightgray;
 }
 
-#check:checked ~ nav{
+#check:checked~nav {
   display: block;
   text-align: center;
   padding-top: 20vh;
@@ -49,7 +48,7 @@ nav a:hover{
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   height: 100vh;
-  
+
 }
 
 input#check {
@@ -59,7 +58,7 @@ input#check {
   display: none;
 }
 
-label img{
+label img {
   width: 8%;
   margin-left: 85vw;
   margin-top: 4vh;
@@ -75,48 +74,80 @@ img#logo {
 }
 
 
-h1 {
+
+main {
   text-align: center;
-  font-weight: lighter;
-  font-family: 'Oswald', sans-serif;
-  font-size: 0.8rem;
-  letter-spacing: 0.2rem;
-  color: whitesmoke;
-  margin-top: 2.34vh;
 }
 
-h1 span {
-  display: block;
-  font-family: 'Cinzel', serif;
-  font-size: 4.5rem;
+main h1 {
+  font-family: 'Oswald', sans-serif;
   font-weight: lighter;
-  margin-top: 1.9vh;
-} 
+  font-size: 0.8rem;
+  letter-spacing: 0.15rem;
+}
+
+
+img {
+  width: 50vw;
+  margin: 5vh 0vw;
+}
+
+nav.destinos {
+  width: 100%;
+}
+
+nav.destinos a {
+  font-family: 'Oswald', sans-serif;
+  font-weight: lighter;
+  font-size: 0.85rem;
+  letter-spacing: 0.15rem;
+  padding: 2% 3.5%;
+  margin: 0;
+}
+
+h1#destin {
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+  font-size: 2.5rem; 
+  margin: 5vh 0vw 0vh 0vw;
+}
 
 p {
-  text-align: center;
   margin: auto;
-  margin-top: 3vh;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 0.1rem;
   line-height: 1.5rem;
-  width: 88vw;
+  width: 90vw;
   font-size: 0.85rem;
   color: whitesmoke;
+  margin-bottom: 5vh;
 }
 
-div#explore {
-  display: block;
+
+
+div.infor { 
+  padding: 5vh;
+}
+
+div span.t-dado {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  color: lightgrey;
+}
+
+div span.dado {
   font-family: 'Cinzel', serif;
-  font-weight: 500;
-  font-size: 1rem;
-  letter-spacing: 0.13rem;
-  color: black;
-  background-color: white;
-  margin: auto;
-  margin-top: 12.4vh;
-  width: 18%;
-  padding: 17% 13% 17% 9%;
-  border-radius: 50%;
+  font-size: 1.5rem;
+  letter-spacing: 0.05rem;
+  margin-top: 1vh;
+  display: block;
 }
 
+hr {
+  border: 0;
+  height: 0.5px;
+  width: 88%;
+  background-image: linear-gradient( #42445A, lightgray, #000, transparent);
+  margin: auto;
+}
