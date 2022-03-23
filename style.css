@@ -12,6 +12,7 @@ body {
   background: #010424 url('imagens/background-home-mobile.jpg') center no-repeat fixed;
   background-size: cover;
   color: white;
+  position: fixed;
 }
 
 
