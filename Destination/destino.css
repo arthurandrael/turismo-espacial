@@ -98,11 +98,17 @@ nav.destinos {
 
 nav.destinos a {
   font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  color: whitesmoke;
   font-weight: lighter;
   font-size: 0.85rem;
   letter-spacing: 0.15rem;
   padding: 2% 3.5%;
   margin: 0;
+}
+
+nav.destinos a:hover, a:active {
+  border-bottom: 2px solid white;
 }
 
 h1#destin {
