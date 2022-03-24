@@ -99,9 +99,10 @@ div.tech a {
   font-family: 'Cinzel', serif;
   margin: auto;
   border: 0.5px solid whitesmoke;
-  padding: 2% 4%;
+  padding: 1.1vh 4vw;
   border-radius: 50%;
   margin: 1.5%;
+  margin-bottom: 1vh;
 }
 div.tech a:hover, a:active {
   color: black;

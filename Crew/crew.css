@@ -87,6 +87,7 @@ h1 {
 
 img {
   margin: 2vh 0vh;
+  margin-bottom: 1vh;
   width: 55vw;
   display: flex;
   margin: auto;
