@@ -143,6 +143,7 @@ body {
 
 label img {display: none;}
 
+
 header {
   display: flex;
   justify-content: space-between;
@@ -169,6 +170,12 @@ nav, ul, li {
   text-align: center;
 }
 
+nav a:hover, a:active {
+  font-size: 1.6vw;
+  color: linen;
+  text-decoration: underline;
+}
+
 img#logo {
   width: 4.5%;
   margin: 6vh 0vw 0vh 5vw;
@@ -184,23 +191,25 @@ main {
 
 section {
   display: block;
-  width: 40vw;
+  width: 38vw;
   text-align: justify;
   margin-left: 8vw;
 }
 
 
-p{width: 40vw;
-  font-size: 1.6vw;
+p{width: 38vw;
+  font-size: 1.4vw;
   position: absolute;
   text-align: justify;
+  line-height: 2rem;
+  letter-spacing: 0.115rem;
 }
-h1{font-size: 2.1vw; 
+h1{font-size: 1.7vw; 
   text-align: left;
   
 }
 h1 span{
-  font-size: 12vw; 
+  font-size: 11vw; 
   text-align: center;
 }
 
@@ -208,8 +217,13 @@ h1 span{
 div#explore {
   font-size: 2.7vw;
   padding: 10% 0%;
-  margin-top: 20vh;
+  margin-top: 18vh;
   margin-left: 20vw;
 }
 
+
+span.numb {
+  font-weight: bold;
+  padding: 0% 1%;
+}
 }
