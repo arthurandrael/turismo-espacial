@@ -250,8 +250,8 @@ h1#crew {
 section {
   position: absolute;
   width: 40vw;
-  height: 35vw;
-  margin-top: 11%;
+  height: 30vw;
+  margin-top: 5.8%;
   text-align: left;
   left: 10%;
 }
@@ -278,9 +278,9 @@ main img {
   width: 28vw;
   position: absolute;
   right: 10vw;
-  bottom: 0;
+  bottom: 0vw;
   margin: 0;
-  top: 20.5vw;
+  top: 20vw;
 }
 
 
