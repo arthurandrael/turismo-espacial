@@ -263,11 +263,11 @@ section p {
 }
 
 main img {
-  width: 25%;
+  width: 25vh;
   position: absolute;
   right: 10vw;
   bottom: 0vh;
-  top: 65vh;
+  top: 55vh;
 }
 
 }
