@@ -173,6 +173,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2em;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 label img {display: none;}
@@ -275,12 +276,12 @@ section p {
 }
 
 main img {
-  width: 28vw;
+  width: 15em;
   position: absolute;
   right: 10vw;
   bottom: 0vw;
   margin: 0;
-  top: 31vh;
+  top: 10em;
 }
 
 
