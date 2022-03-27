@@ -199,7 +199,7 @@ nav#navegacao {
   width: 65vw;
   display: block;
   position: absolute;
-  margin-left: 45vw;
+  margin-left: 42vw;
 }
 
 nav#navegacao ul, li {
@@ -222,7 +222,7 @@ img#logo {
 
 
 h1#ti {
-  font-size: 1.6vw;
+  font-size: 2vw;
   text-align: left;
   margin-left: 10%;
   margin-bottom: 5%;
@@ -237,7 +237,7 @@ img#Astro {
 }
 
 main {
-  margin-top: 13%;
+  margin-top: 10%;
 }
 
 section {
@@ -256,7 +256,7 @@ section h1#destin {
 
 section nav.destinos a {
   font-size: 1.5vw;
-  padding: 0% 2.5vw 0% 0%;
+  padding: 0% 1% 2.7% 1.50%;
 }
 
 nav.destinos{text-align: left;}
@@ -276,7 +276,20 @@ div#informacoes {
 }
 div.infor{
   margin: 0;
+  margin-top: 6%;
   padding: 0;
+  width: 20vw;
+  text-align: left;
+  border-top: 0.07vw solid grey;
+  padding-top: 5%;
+}
+
+div.infor span.t-dado{
+  font-size: 1.3vw;
+}
+
+div.infor span.dado {font-size: 2.2vw;
+  margin-top: 4%;
 }
 
 }
