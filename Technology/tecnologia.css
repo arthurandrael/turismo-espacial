@@ -229,8 +229,8 @@ main {
 
 
 section {left: 20%;
-  top: 50%;
-  position: absolute; 
+  /*top: 50%;
+  position: absolute;*/ 
   width: 50vw;
   padding-left: 0;
 }
