@@ -229,7 +229,7 @@ main {
 
 
 section {left: 20vw;
-  top: 27.5vw;
+  top: 30vw;
   position: absolute;
   width: 50vw;
   padding-left: 0;
@@ -267,6 +267,7 @@ div.tech {
   padding: 1vh 0vw;
   margin-top: 5.5%;
 }
+
 
 div.tech div {
   display: block;
