@@ -90,6 +90,9 @@ img {
   width: 100vw;
 }
 
+#img1{display: none;}
+#img2{display: block;}
+
 div.tech {
   text-align: center;
 }
@@ -97,12 +100,23 @@ div.tech a {
   color: white;
   text-decoration: none;
   font-family: 'Cinzel', serif;
-  margin: auto;
-  border: 0.5px solid whitesmoke;
-  padding: 1.1vh 4vw;
+  /*padding: 1.1vh 4vw;*/
   border-radius: 50%;
   margin: 1.5%;
   margin-bottom: 1vh;
+  text-align: center;
+  margin: auto;
+}
+
+div.tech div {
+  display: inline-block;
+  width: 4vw;
+  color: black;
+  border-radius: 50%;
+  padding: 1.1vh 3vw;
+  margin: 1.5%;
+  border: 0.5px solid whitesmoke;
+  text-align: center;
 }
 div.tech a:hover, a:active {
   color: black;
@@ -135,4 +149,128 @@ p {
   width: 88vw;
   font-size: 0.85rem;
   color: whitesmoke;
+}
+
+h1#titu1{font-size: 0.9rem;}
+h1#titu1 span{font-size: 1.8rem;}
+
+
+
+
+@media (min-width: 720px) {
+* {margin: 0; padding: 0;}
+body {
+  width: 100%;
+  height: 100vh;
+  background: #010424 url('../imagens/background-technology-desktop.jpg') center no-repeat fixed;
+  background-size: cover;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label img {display: none;}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  vertical-align: middle;
+}
+
+
+nav li {
+  margin-top: 5vh;
+  background: rgba(225, 225, 225, 0.1);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  padding: 6% 8% 6% 2%;
+}
+
+nav {
+  width: 70vw;
+  position: absolute;
+  display: block;
+  margin-left: 30vw;
+}
+
+nav, ul, li {
+  display: flex;
+  font-size: 1.6vw;
+  vertical-align: middle;
+  text-align: center;
+}
+
+nav a:hover, a:active {
+  font-size: 1.6vw;
+  color: linen;
+  text-decoration: underline;
+}
+
+img#logo {
+  width: 4.5%;
+  margin: 6vh 0vw 0vh 5vw;
+}
+
+
+
+#img2 {display: none;}
+#img1 {
+  position: absolute;
+  display: flex;
+  width: 35%;
+  /*height: 25%;*/
+  right: 0;
+}
+
+
+section {left: 20%;
+  top: 25%;
+  position: absolute; 
+  width: 50vw;
+  padding-left: 0;
+}
+
+h1#one {
+  text-align: left;
+  width: 40vw;
+  margin-left: 10%;
+  font-size: 1.9vw;
+  font-family: 'Oswald', sans-serif;
+}
+h1#one span {
+  font-size: 1.9vw;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1#titu1 {font-size: 1vw;
+  text-align: left;}
+h1#titu1 > span {font-size: 4vw;
+  text-align: left;
+}
+
+
+p {
+  width: 40vw;
+  text-align: left;
+  margin: 0;
+  font-size: 1.4vw;
+  line-height: 3.1vw;
+  letter-spacing: 0.115%;
+}
+
+div.tech {
+  padding: 1vh 0vw;
+  margin-top: 5.5%;
+}
+
+div.tech div {
+  display: block;
+  padding: 1.2% 1%;
+  text-align: center;
+  font-size: 2.5vw;
+  margin: 3% 10%;
+}
+
+
 }
