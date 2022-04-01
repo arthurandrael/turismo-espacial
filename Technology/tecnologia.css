@@ -228,8 +228,8 @@ main {
 }
 
 
-section {left: 20%;
-  top: 30vw;
+section {left: 20vw;
+  top: 27.5vw;
   position: absolute;
   width: 50vw;
   padding-left: 0;
