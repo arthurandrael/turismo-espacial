@@ -223,9 +223,13 @@ img#logo {
   right: 0;
 }
 
+main {
+  margin-top: 10%;
+}
+
 
 section {left: 20%;
-  top: 25%;
+  top: 30%;
   position: absolute; 
   width: 50vw;
   padding-left: 0;
@@ -235,11 +239,11 @@ h1#one {
   text-align: left;
   width: 40vw;
   margin-left: 10%;
-  font-size: 1.9vw;
+  font-size: 1.65vw;
   font-family: 'Oswald', sans-serif;
 }
 h1#one span {
-  font-size: 1.9vw;
+  font-size: 1.65vw;
   font-family: 'Oswald', sans-serif;
 }
 
